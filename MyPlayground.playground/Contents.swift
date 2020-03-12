@@ -35,3 +35,53 @@ else
     print((evenOdd+1)%2)
     print((evenOdd+1)%6)
 }
+
+let count:Int=12
+for i in 1...count
+{
+    print("1*\(i)=\(1*i)")
+}
+for i in 1...count
+{
+    print("2*\(i)=\(2*i)")
+}
+for i in 1...count
+{
+    print("3*\(i)=\(3*i)")
+}
+for i in 1...count
+{
+    print("4*\(i)=\(4*i)")
+}
+for i in 1...count
+{
+    print("5*\(i)=\(5*i)")
+}
+for i in 1...count
+{
+    print("6*\(i)=\(6*i)")
+}
+for i in 1...count
+{
+    print("7*\(i)=\(7*i)")
+}
+for i in 1...count
+{
+    print("8*\(i)=\(8*i)")
+}
+for i in 1...count
+{
+    print("9*\(i)=\(9*i)")
+}
+for i in 1...count
+{
+    print("10*\(i)=\(10*i)")
+}
+for i in 1...count
+{
+    print("11*\(i)=\(11*i)")
+}
+for i in 1...count
+{
+    print("12*\(i)=\(12*i)")
+}
