@@ -1,6 +1,6 @@
 import UIKit
 
-var str = "Hello, playground"
+/*var str = "Hello, playground"
 
 let number1:Int=5
 let number2:Int=4
@@ -120,4 +120,21 @@ case 80...100:
     print("A")
 default:
     print("Error,score is't corrected")
+}*/
+
+var pattern = String()
+for i in 1...4
+{
+    for j in 1...i
+    {
+        pattern += ""
+    }
+    for j in 1...1
+    {
+        pattern += "*"
+    }
+    print(pattern)
 }
+
+
+
