@@ -85,3 +85,16 @@ for i in 1...count
 {
     print("12*\(i)=\(12*i)")
 }
+
+let number:Int=100
+print("2")
+print("3")
+print("5")
+print("7")
+for j in 2...number
+{
+    if (j%2) != 0 && (j%3) != 0 && (j%5) != 0 && (j%7) != 0
+    {
+     print(j)
+    }
+}
