@@ -98,3 +98,26 @@ for j in 2...number
      print(j)
     }
 }
+
+var score:Int=66
+switch score
+{
+case 0...49:
+    print("F")
+case 50...54:
+    print("D")
+case 55...59:
+    print("D+")
+case 60...64:
+    print("C")
+case 65...69:
+    print("C+")
+case 70...74:
+    print("B")
+case 75...79:
+    print("B+")
+case 80...100:
+    print("A")
+default:
+    print("Error,score is't corrected")
+}
