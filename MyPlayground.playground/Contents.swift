@@ -122,7 +122,7 @@ default:
     print("Error,score is't corrected")
 }*/
 
-var pattern = String()
+/*var pattern = String()
 for i in 1...4
 {
     for j in 1...i
@@ -134,7 +134,20 @@ for i in 1...4
         pattern += "*"
     }
     print(pattern)
-}
+}*/
 
+var pattern2 = String()
+for loop1 in 1...4
+{
+    for loop2 in 1...loop1
+    {
+        pattern2 += ""
+    }
+    for loop3 in 1...1
+    {
+        pattern2 += "* * * * "
+    }
+    print(pattern2)
+}
 
 
