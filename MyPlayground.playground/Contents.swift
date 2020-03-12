@@ -24,5 +24,14 @@ let coin5:Int=currency%5
 print("Coin2=\(coin5/2)")
 print("Coin1=\(coin5/1)")
 
-
-
+var evenOdd:Int=40
+if (evenOdd%2)==0
+{
+    print((evenOdd-1)%3)
+    print((evenOdd-1)%5)
+}
+else
+{
+    print((evenOdd+1)%2)
+    print((evenOdd+1)%6)
+}
